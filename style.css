@@ -1,0 +1,136 @@
+.map{
+    position:absolute;
+    left: 40%;
+    top: 70px;
+    size: 100%;
+    width: 1000px;
+   margin-right: 10px;
+   height: 900px;
+   font-size: 40px;
+   background-color: aqua;
+}
+
+.house1{
+  position: absolute;
+  top: 50px;
+margin-left: 10px;
+}
+
+.house2{
+  position: absolute;
+  top: 50px;
+  margin-left: 10px;
+  left: 50%;
+}
+
+.room{
+  display: flex;
+}
+
+.roomsold{
+  background-color: red;
+}
+
+.room:hover{
+    display: block;
+    cursor: pointer;
+    background-color: green;
+  }
+
+/*  set the detail fort size of room */
+#r1infor {
+  font-size: 25px;
+
+}
+
+#r2infor {
+  font-size: 25px;
+}
+
+#r4infor {
+  font-size: 25px;
+}
+
+#r5infor {
+  font-size: 25px;    
+}
+
+#r7infor {
+  font-size: 25px;
+}
+
+#r8infor {
+  font-size: 25px;
+} 
+
+/*  radion button and dive inline */
+#R1, #r1 {
+    display: inline-block;
+  }
+
+  #R2, #r2 {
+    display: inline-block;
+  }
+#R3, #r3 {
+    display: inline-block;
+  }
+
+#R4, #r4 {
+    display: inline-block;
+  }
+#R5, #r5 {
+    display: inline-block;
+  }
+
+  #R6, #r6 {
+    display: inline-block;
+  }
+#R7, #r7 {
+    display: inline-block;
+  }
+
+#R8, #r8 {
+    display: inline-block;
+  }
+  #R9, #r9 {
+    display: inline-block;
+  }
+
+#R10, #r10 {
+    display: inline-block;
+  }
+/*  radion button and dive inline */
+
+
+.Information{
+  position: absolute;
+  top: 1000px;
+  display: inline;
+ font-size: 40px;
+ size: 35%;
+}
+
+
+#r1 {
+  background-color: white;
+}
+#r2 {
+  background-color: white;
+}
+#r4 {
+  background-color: white;
+}
+#r5 {
+  background-color: white;
+}
+#r7 {
+  background-color: white;
+}
+#r8 {
+  background-color: white;
+}
+#r9 {
+  background-color: white;
+}
+
+  

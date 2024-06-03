@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roominformation>
+   <room>
+      <name>Room1</name>
+      <cost>100</cost>
+      <capacity>2</capacity>
+   </room>
+  
+   <room>
+      <name>Room2</name>
+      <cost>100</cost>
+      <capacity>2</capacity>
+   </room>
+   
+   <room>
+      <name>Room3</name>
+      <cost>100</cost>
+      <capacity>2</capacity>
+   </room>
+
+   <room>
+      <name>Room4</name>
+      <cost>100</cost>
+      <capacity>2</capacity>
+   </room>
+
+   <room>
+      <name>Room5</name>
+      <cost>100</cost>
+      <capacity>2</capacity>
+   </room>
+
+   <room>
+      <name>Room6</name>
+      <cost>300</cost>
+      <capacity>4</capacity>
+
+   </room>
+
+   <room>
+      <name>Room6</name>
+      <cost>300</cost>
+      <capacity>4</capacity>
+   </room>
+
+   <room>
+      <name>Room7</name>
+      <cost>300</cost>
+      <capacity>4</capacity>
+   </room>
+
+   <room>
+      <name>Room8</name>
+      <cost>400</cost>
+      <capacity>6</capacity>
+   </room>
+
+   <room>
+      <name>Room9</name>
+      <cost>400</cost>
+      <capacity>6</capacity>
+   </room>
+
+   
+   <room>
+      <name>Room10</name>
+      <cost>500</cost>
+      <capacity>8</capacity>
+   </room>
+</roominformation>

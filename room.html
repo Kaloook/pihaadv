@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="Bookingsite"> 
+    <div style= font-size:60px>Booking From</div>
+   
+    <div class="container">
+            <div>
+                <label for="first-name">Full Name
+                <input type="text" id="fullname" name="userfname" required /><br><br> </label>
+              </div>       
+    <div>    
+                <label for="people"> Number of people</label>
+                <input type="number" id="people" name="numberofpeople"  max="8" min="1"/><br><br></div>
+    <div>
+      
+                <label for="checkinday"> Check in day </label>
+                <input type="date"  id="dayin" name="checkinday" required  min=today><br><br></div>
+    </div>
+    <div>
+                <label for="checkoutday"> Check out day </label>
+                <input type="date" id="dayout" name="checkoutday" required min=tomorrow><br><br></div>
+</div>
+
+    
+<div>
+  <button class="search" type="button" id="searchbutton" onclick="searchdata()">Search</button>
+  <button class="submit" type="button" id="submitbutton" onclick="callbothfunction()">Submit</button><br><br>
+</div>
+
+<div class="container-half card">
+  <subtitle class="card-title">Collected Data </subtitle>
+  <table id = "collected-data">
+      <thead>
+          <td id="fullname">Full name | </td>
+          <td id="checkin"> Check in day | </td>
+          <td id="chekcout">Check out day | </td>
+          <td id="numberofday">Day of stay  | </td>
+          <td id="numberofpeople">Number of People | </td>
+          <td id="roomnumber">House | </td>
+          <td id="totalprice">Price | </td>
+          <td></td>
+      </thead>
+  </table>
+</div>
+</div> <br><br>
+
+<div class="container">
+<div class="map"> Booking map  <img src="/Map.jpg" width="1000" height="900"> 
+
+<div class="house1">
+  
+  <div class="room" id="r1">
+    <input  type="radio" id="R1" name="roominfo" > 
+    Room 1
+  </div>
+  <p><img src="2proom.jpg" style=" height: 200px; width:200px;display: none;" id="2p" name="2p"alt="2proom"> 
+  </p>
+  <p id ="r1infor" style="display:none;" name="roomdetails"> Price is 100 dollar per night.  <br>This room is for people of two </p>
+
+  
+  <div class="room"  id="r2">
+    <input  type="radio" id="R2" name="roominfo"> 
+    Room 2 
+    
+  </div>
+  <p><img src="2proom.jpg" style=" height: 200px; width:200px;display: none;" id="3p" name="3p"alt="2proom"> 
+  </p>
+
+  <p id ="r2infor" style="display:none;" name="roomdetails"> Price is 100 dollar per night. <br>this room is for people of two </p>
+
+
+  
+  <div class="roomsold"  id="r3">
+    <input  type="radio" id="R3" name="roominfo" disabled > 
+    Room 3 
+  </div>
+   
+  <p><img src="2proom.jpg" style=" height: 200px; width:200px;display: none;" id="3p" name="3p"alt="2proom"> 
+    <p id ="r3infor" style="display:none;" name="roomdetails"> Price is 100 dollar per night. <br>this room is for people of two </p>
+
+  </p>
+  
+  
+  <div class="room"  id="r4">
+    <input  type="radio" id="R4" name="roominfo"> 
+    Room 4 
+   
+  </div>
+ 
+  <p><img src="2proom.jpg" style=" height: 200px; width:200px;display: none;" id="4p" name="4p"alt="2proom"> 
+    <p id ="r4infor" style="display:none;" name="roomdetails"> Price is 100 dollar per night. <br>this room is for people of two </p>
+
+  </p>
+
+
+  <div class="room"  id="r5">
+    <input  type="radio" id="R5" name="roominfo"> 
+    Room 5 </div>
+    
+  <p><img src="2proom.jpg" style=" height: 200px; width:200px;display: none;" id="5p" name="5p"alt="2proom"> 
+    <p id ="r5infor" style="display:none;" name="roomdetails"> Price is 100 dollar per night. <br>This room is for people of two </p>
+
+  </p>
+  </div>
+ 
+  <div class="house2">
+
+    
+  <div class="roomsold"  id="r6">
+    <input  type="radio" id="R6" name="roominfo" disabled> 
+    Room 6 
+  </div>
+  
+  <p><img src="4proom.jpg" style=" height: 200px; width:200px;display: none;" id="6p" name="6p"alt="4proom"> 
+
+  </p>
+
+  
+  <div class="room"  id="r7">
+    <input  type="radio" id="R7" name="roominfo"> 
+    Room 7 </div>
+   
+
+  <p><img src="4proom.jpg" style=" height: 200px; width:200px;display: none;" id="7p" name="7p"alt="4proom"> 
+    <p id ="r7infor" style="display:none;" name="roomdetails"> Price is 300 dollar per night. <br>This room is for people of four </p>
+
+  </p>
+
+  <div class="room"  id="r8">
+    <input  type="radio" id="R8" name="roominfo"> 
+    Room 8 
+  </div>
+  
+
+  <p><img src="6proom.jpg" style=" height: 200px; width:200px;display: none;" id="8p" name="8p"alt="4proom"> 
+    <p id ="r8infor" style="display:none;" name="roomdetails"> Price is 400 dollar per night. <br>This room is for people of six </p>
+
+  </p>
+  <div class="room"  id="r9">
+    <input  type="radio" id="R9" name="roominfo" > 
+    Room 9</div>
+    
+  <p><img src="6proom.jpg" style=" height: 200px; width:200px;display: none;" id="9p" name="9p"alt="4proom"> 
+    <p id ="r9infor" style="display:none;" name="roomdetails"> Price is 400 dollar per night. <br>This room is for people of six </p>
+  </p>
+
+  <div class="roomsold"  id="r10">
+    <input  type="radio" id="R10" name="roominfo" disabled> 
+    Room 10 </div>
+  <p><img src="4proom.jpg" style=" height: 200px; width:200px;display: none;" id="10p" name="10p"alt="4proom"> 
+  </p>
+  </div>
+
+</div>
+</div>
+<div></div>
+
+
+
+  <div id="Information">
+    <p id="Instruction" style="font-size: large;"> 
+      Book a Lodge<br>
+      Instruction for how to use the booking system.<br>
+      This cound inclder:<br>
+      1. Enter your name and surname<br>
+      2. Set the check in and Check out dates <br>
+      3. Enter number of people needed<br>
+      4. Enter caoaticy required<br>
+      5. Click search to check the input <br>
+      6. Hover over lodges to see details<br>
+      7. Click the Submit button<br></p>
+     
+  </div>
+    <script src="booking.js"></script>
+   
+</body> 
+</html>
